@@ -1,5 +1,5 @@
 FROM php:7.0-fpm
-MAINTAINER Kamil Kijowski <k.kijowski@ideo.pl>
+MAINTAINER Kamil Kijowski <kl.kijowski@gmail.com>
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
